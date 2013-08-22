@@ -4,6 +4,23 @@
 
 [alias]
     l = "!source ~/.dotfiles/.githelper && pretty_git_log"
+    unstage = reset HEAD
+    uncommit = reset --soft HEAD^
+    amend = commit --amend
+    who = shortlog -n -s --no-merges
+    g = grep -n --color -E
+    cp = cherry-pick -x
+    nb = checkout -b
+     
+    # 'git add -u' handles deleted files, but not new files
+    # 'git add .' handles any current and new files, but not deleted
+    # 'git addall' now handles all changes
+    addall = !sh -c 'git add . && git add -u'
+
+    # Handy shortcuts for rebasing
+    rc = rebase --continue
+    rs = rebase --skip
+    ra = rebase --abort
 
 [gui]
     encoding = utf-8
@@ -13,5 +30,4 @@
 
 [color]
     ui = auto
-
 
