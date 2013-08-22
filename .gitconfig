@@ -1,1 +1,17 @@
-/Users/Ronald/.gitconfig
+[user]
+    name = Ronald Jian
+    email = ronald.jian@gmail.com
+
+[alias]
+    l = "!source ~/.dotfiles/.githelper && pretty_git_log"
+
+[gui]
+    encoding = utf-8
+
+[i18n]
+    commitencoding = utf-8
+
+[color]
+    ui = auto
+
+
