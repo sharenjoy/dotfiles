@@ -18,6 +18,7 @@ alias mysqladmin='/usr/local/mysql/bin/mysqladmin'
 
 # command aliases
 alias l='ls -al'
+alias sta='st -a'
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
