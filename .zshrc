@@ -54,7 +54,7 @@ plugins=(git git-flow github sublime web-search)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=$PATH:/Users/Ronald/Library/Application\ Support/GoodSync:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
+export PATH=$PATH:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
 
 # phpbrew
 source ~/.phpbrew/bashrc
