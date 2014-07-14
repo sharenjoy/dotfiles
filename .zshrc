@@ -19,6 +19,7 @@ alias mysqladmin='/usr/local/mysql/bin/mysqladmin'
 # command aliases
 alias l='ls -al'
 alias sta='st -a'
+alias sshsharenjoy='ssh 192.168.1.111'
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
