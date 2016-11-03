@@ -12,22 +12,25 @@ ZSH_THEME="robbyrussell"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # mysql aliases
-alias mysqlstart='sudo /Library/StartupItems/MySQLCOM/MySQLCOM restart'
+alias mysqlstart='sudo /usr/local/mysql/support-files/mysql.server start'
+alias mysqlrestart='sudo /usr/local/mysql/support-files/mysql.server restart'
 alias mysql='/usr/local/mysql/bin/mysql'
 alias mysqladmin='/usr/local/mysql/bin/mysqladmin'
 
 # command aliases
 alias l='ls -al'
 alias sta='st -a'
-alias ss='ssh 192.168.1.111'
+alias ss='ssh sharenjoy'
 alias cpssh='pbcopy < ~/.ssh/id_rsa.pub'
-alias cmsharenjoy='cd ~/sites/sharenjoy/cmsharenjoy'
-alias doc='cd ~/sites/sharenjoy/docs'
+alias sharenjoy='cd ~/sites/sharenjoy'
+alias project='cd ~/Documents/Sites'
+alias tt='./vendor/bin/phpunit'
+alias newaxes='composer create-project sharenjoy/axes --prefer-dist -s dev'
 
 # laravel aliases
 alias art='php artisan'
 alias h='homestead'
-alias dump='sudo composer dump-autoload --optimize'
+alias dump='composer dump-autoload --optimize'
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
@@ -58,15 +61,19 @@ alias dump='sudo composer dump-autoload --optimize'
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git git-flow github sublime web-search laravel4)
+plugins=(git git-flow github sublime web-search)
 
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=$PATH:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/Ronald/.composer/vendor/bin
+export PATH=$PATH:/usr/local/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/Ronald/.composer/vendor/bin
+export NVM_DIR=~/.nvm
 
 # phpbrew
 source ~/.phpbrew/bashrc
+
+# nvm
+source $(brew --prefix nvm)/nvm.sh
 
 
 
