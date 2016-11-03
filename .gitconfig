@@ -1,5 +1,5 @@
 [user]
-    name = Ronald Jian
+    name = Ronald
     email = ronald.jian@gmail.com
 
 [alias]
@@ -31,3 +31,9 @@
 [color]
     ui = auto
 
+[filter "media"]
+	required = true
+	clean = git media clean %f
+	smudge = git media smudge %f
+[push]
+	default = simple
