@@ -10,4 +10,7 @@
     { "keys": ["f12"], "command": "simple_php_unit" },
     { "keys": ["f11"], "command": "simple_php_unit", "args": { "test_current_file": true } },
 
+    // alignment
+    { "keys": ["super+ctrl+alt+a"], "command": "alignment" },
+
 ]
