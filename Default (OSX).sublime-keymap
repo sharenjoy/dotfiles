@@ -1,0 +1,13 @@
+[
+    // SublimePHPCompanion
+    { "keys": ["f6"], "command": "goto_definition_scope" },
+    { "keys": ["f7"], "command": "import_namespace" },
+    { "keys": ["f8"], "command": "find_use" },
+    { "keys": ["f9"], "command": "expand_fqcn" },
+    { "keys": ["f10"], "command": "insert_php_constructor_property" },
+
+    // PHPUnit
+    { "keys": ["f12"], "command": "simple_php_unit" },
+    { "keys": ["f11"], "command": "simple_php_unit", "args": { "test_current_file": true } },
+
+]
