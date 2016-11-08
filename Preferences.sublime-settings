@@ -20,5 +20,17 @@
 	"theme": "Material-Theme-Darker.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"vintage_start_in_command_mode": false,
-	"word_wrap": true
+	"word_wrap": true,
+	"show_panel_on_build": false,
+	"additional_path_items":
+	[
+		"~/bin",
+		"/usr/local/bin",
+		"/usr/local/sbin",
+		"/usr/bin",
+		"/bin",
+		"/usr/sbin",
+		"/sbin",
+		"~/.composer/vendor/bin"
+	]
 }
