@@ -3,7 +3,7 @@
     email = ronald.jian@gmail.com
 
 [alias]
-    l = "!source ~/.dotfiles/.githelper && pretty_git_log"
+    l = "!source ~/.githelper && pretty_git_log"
     unstage = reset HEAD
     uncommit = reset --soft HEAD^
     amend = commit --amend

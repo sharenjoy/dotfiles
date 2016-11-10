@@ -12,8 +12,8 @@
 		"draw_normal",
 		"draw_active"
 	],
-	"line_padding_bottom": 3,
-	"line_padding_top": 3,
+	"line_padding_bottom": 6,
+	"line_padding_top": 6,
 	"material_theme_accent_yellow": true,
 	"overlay_scroll_bars": "enabled",
 	"tab_size": 4,
