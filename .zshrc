@@ -100,10 +100,19 @@ alias project='cd ~/Documents/Sites'
 alias tt='./vendor/bin/phpunit'
 alias newaxes='composer create-project sharenjoy/axes --prefer-dist -s dev'
 
+# npm aliases
+alias ndev='npm run dev'
+alias npro='npm run production'
+alias nwatch='npm run watch'
+
 # laravel aliases
 alias art='php artisan'
 alias h='homestead'
 alias dump='composer dump-autoload --optimize'
+
+# git aliases
+alias ggg='gcd ; gst ; gaa ; gcmsg "fighting" ; gcm ; gm develop ; gcd ; gpoat'
+alias gggs='gcd ; gst ; gaa ; gcmsg "fighting" ; gcm ; gm develop ; gco staging ; gm develop ; gcd ; gpoat'
 
 # nvm
 export NVM_DIR="/Users/Ronald/.nvm"
