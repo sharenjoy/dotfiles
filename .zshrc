@@ -94,11 +94,12 @@ alias mysqladmin='/usr/local/mysql/bin/mysqladmin'
 alias l='ls -al'
 alias sta='st -a'
 alias ss='ssh sharenjoy'
+alias so='ssh oyhg'
 alias cpssh='pbcopy < ~/.ssh/id_rsa.pub'
 alias sharenjoy='cd ~/sites/sharenjoy'
-alias project='cd ~/Documents/Sites'
 alias tt='./vendor/bin/phpunit'
 alias newaxes='composer create-project sharenjoy/axes --prefer-dist -s dev'
+alias newmix='git clone git@github.com:sharenjoy/mix.git'
 
 # npm aliases
 alias ndev='npm run dev'
@@ -107,7 +108,6 @@ alias nwatch='npm run watch'
 
 # laravel aliases
 alias art='php artisan'
-alias h='homestead'
 alias dump='composer dump-autoload --optimize'
 
 # git aliases
